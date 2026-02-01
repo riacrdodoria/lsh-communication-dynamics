@@ -1,0 +1,15 @@
+seconds,speaker,episode_id,episode_name,event_id,event_name,level,perturbation_flag
+15,Speaker_A,1,Supplier Negotiation,,,episode,no
+42,Speaker_B,1,Supplier Negotiation,1.1,Unexpected cost overrun,event,yes
+70,Speaker_A,1,Supplier Negotiation,1.1,Unexpected cost overrun,event,yes
+88,Speaker_B,1,Supplier Negotiation,1.1,Unexpected cost overrun,event,yes
+125,Speaker_C,1,Supplier Negotiation,1.2,Unclear shared understanding of scope,event,yes
+140,Speaker_B,1,Supplier Negotiation,1.2,Unclear shared understanding of scope,event,yes
+155,Speaker_A,2,Regulatory Approval,,,episode,no
+181,Speaker_C,2,Regulatory Approval,2.1,Approval process suspended indefinitely,event,yes
+220,Speaker_A,2,Regulatory Approval,2.2,Q3 launch plan blocked,event,yes
+235,Speaker_B,2,Regulatory Approval,2.2,Q3 launch plan blocked,event,yes
+260,Speaker_A,2,Regulatory Approval,2.3,Forced pivot from Q3 to Q4,event,yes
+295,Speaker_C,2,Regulatory Approval,2.3,Forced pivot from Q3 to Q4,event,yes
+310,Speaker_B,3,User Testing Results,3.1,Onboarding failure rate exceeds threshold,event,yes
+345,Speaker_A,3,User Testing Results,3.1,Onboarding failure rate exceeds threshold,event,yes
