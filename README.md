@@ -53,6 +53,11 @@ lsh-communication-dynamics/
 │       ├── expected_llm_output_table1.csv       # Expected output: event classification
 │       └── expected_llm_output_table2.csv       # Expected output: time-series augmentation
 │
+├── study1_irr_validation/             # Study 1: Inter-rater reliability validation
+│   ├── README.md                      # Overview of the IRR process
+│   ├── methodology.md                 # Detailed IRR protocol (coders, procedure, metrics)
+│   └── results.md                     # Final reliability scores (κ = .821, agreement = 96.4%)
+│
 ├── docs/
 │   └── method_overview.md             # LSH method overview
 │
@@ -89,6 +94,10 @@ python scripts/generate_synthetic_data.py
 ### Replicating the Perturbation Classification Protocol (Study 1)
 
 See [`study1_perturbation_protocol/README.md`](study1_perturbation_protocol/README.md) for a full walkthrough of the LLM-assisted classification process, including the prompt, validation script, and a worked synthetic example.
+
+### Inter-Rater Reliability Validation (Study 1)
+
+See [`study1_irr_validation/README.md`](study1_irr_validation/README.md) for a summary of the IRR analysis conducted to validate the perturbation coding scheme. The analysis yielded Cohen's κ = .821 (Almost Perfect Agreement) between the human expert coder and the LLM coder across all 17 meetings.
 
 ## Citation
 
